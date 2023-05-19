@@ -1,0 +1,280 @@
+body,
+html {
+  /* background-color: #fbe7c6; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, "Source Sans Pro", sans-serif;
+  color: #222a2f;
+}
+
+header {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px #cac3c3;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.6rem;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 50px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.nav-item,
+.toggle-btn {
+  padding: 15px;
+  text-decoration: none;
+  color: #222a2f;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+.profile-image {
+  margin: 50px;
+  border-radius: 100%;
+  padding: 1.5rem;
+}
+
+.summary {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  padding: 0px 25px;
+}
+
+#person-name {
+  color: #e39e1c;
+}
+
+.profile-info {
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#profile-name {
+  font-size: 3.8rem;
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+  line-height: 1.1;
+}
+
+.profile-desc {
+  color: #463f36;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+button {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 0px;
+  border: none;
+  background-color: transparent;
+  border: #000000 solid 1px;
+}
+
+.hire-me {
+  text-decoration: none;
+  text-align: left;
+  color: #000000;
+  font-size: 1rem;
+  font-family: Poppins;
+}
+
+.education,
+.skills,
+.contact {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 40px;
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+}
+
+.about-me,
+.education {
+  background-color: #f2f5f2;
+}
+
+.skills,
+.contact {
+  background-color: #ffffff;
+}
+
+.info,
+.skills-info {
+  padding: 0px 150px 30px;
+}
+
+/* ABOUT ME */
+
+.about-me {
+  padding: 50px;
+}
+
+.about-heading,
+.skills-heading,
+.education-heading,
+.contact-heading {
+  padding: 0 100px 0 100px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 1.125rem;
+}
+
+.about-section {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.about-subheading,
+.skills-subheading,
+.contact-subheading {
+  margin-top: -25px;
+  padding: 25px 50px 0 50px;
+  font-family: Montserrat;
+  font-weight: 400px;
+  font-size: 1.9rem;
+}
+
+#about-details,
+#skills-details,
+#education-details {
+  margin-top: -40px;
+  padding: 25px 50px 0 50px;
+  font-family: Montserrat, 'Source Sans Pro', sans-serif;
+  font-weight: 400px;
+}
+
+/* SKILLS  */
+.skills {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.skills-section {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+
+.skillset {
+  display: grid;
+  justify-content: start;
+  align-items: normal;
+  padding: 0 60px;
+}
+
+.skills-icon {
+  margin: 0 5px;
+  padding: 0 20px;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+/* EDUCATION */
+
+.education {
+  padding: 50px;
+}
+
+.edu-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  margin: 0px 100px;
+}
+
+.grid-item {
+  background-color: rgb(195, 215, 226);
+  padding: 5px 25px 5px 25px;
+  border: 2px solid #fff;
+}
+
+.course,
+.university,
+.year {
+  padding: 5px;
+}
+
+/* CONTACT SECTION */
+
+.contact-section {
+  padding: 50px 50px 0px 50px;
+}
+
+.contact-details {
+  padding: 0px 50px;
+  margin-top: -40px;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: -50px 50px 50px 50px;
+}
+
+.contact-box {
+  padding: 25px 25px 25px 50px;
+}
+
+.icon-box {
+  color: #0072b1;
+  box-shadow: 5px 5px 5px 1px #888888;
+  border-radius: 100px;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+/* FOOTER STARTS HERE */
+
+footer {
+  background-color: #000000;
+  font-size: 1.1rem;
+  padding: 10px 150px 10px;
+  color: #fff;
+  font-weight: 300;
+}
